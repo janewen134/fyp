@@ -78,16 +78,22 @@ class NavTest():
         # navigation loop 
         while not rospy.is_shutdown():   
             # get the hand sign
+            print "please make a sign"
+            rospy.sleep(2) # give user some time to react
             sign = getSign()
+            rospy.sleep(2)
             
             # if no sign ("nothing") is given then check three times before quit the program
             if sign==5 & wait_times < 4:
+                print "sign received"
                 wait_times = wait_times + 1
                 rospy.sleep(10)
                 continue
             elif sign==5 & wait_times = 4:
+                print "no sign received"
+                print "I am going to shut down. Byebye"
                 break
-
+            print "I am on my way"
             # get the next goal position
             next_goal = locations[sign]   
 
