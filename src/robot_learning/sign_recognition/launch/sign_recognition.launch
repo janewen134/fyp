@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="sign_recognition" name="als_prediction_node" type="sign_pred.py" output="screen">
+        <param name="image_topic" value="/usb_cam/image_raw" />
+        <param name="model_path" value="$(find sign_recognition)/model/als_dl_model_coord_ds_us.h5" />
+    </node> 
+
+</launch>

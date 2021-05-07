@@ -1,0 +1,20 @@
+dog
+backpack
+umbrella
+handbag
+skis
+skateboard
+surfboard
+tennis racket
+bottle
+chair
+tv
+laptop
+mouse
+remote
+keyboard
+cell phone
+book
+clock
+vase
+teddy bear

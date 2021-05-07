@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/jing/ros_project/devel/include/**",
+        "/home/jing/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/jing/ros_project/src/robot_mrobot/mrobot_bringup/include/**",
+        "/home/jing/ros_project/src/robot_learning/object_detect/include/**",
+        "/home/jing/catkin_ws/src/robot_perception/robot_voice/include/**",
+        "/home/jing/ros_project/src/usb_cam/src/usb_cam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
